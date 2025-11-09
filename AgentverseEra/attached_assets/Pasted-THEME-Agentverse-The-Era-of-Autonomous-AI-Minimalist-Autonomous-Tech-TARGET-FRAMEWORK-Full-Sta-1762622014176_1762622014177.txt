@@ -1,0 +1,63 @@
+THEME: Agentverse: The Era of Autonomous AI - Minimalist Autonomous Tech. TARGET FRAMEWORK: Full-Stack React/Next.js (or Vite/React) and Tailwind CSS.
+
+PHASE 1: UI/UX & HIGH-END AESTHETIC (The Winning Vibe)
+
+AESTHETIC & ANIMATION RULES (CRITICAL, MUST BE AWESOME):
+
+Color Palette: Use a soft, high-contrast, professional palette.
+
+Background: Deep Slate/Charcoal (e.g., #0F172A or #171923).
+
+Primary Accent (Success/Highlight): A sophisticated Teal/Aqua (#00E5C0).
+
+Secondary/Tertiary: Muted grays and soft whites for text and separators.
+
+Typography: Use a Clean, Modern Sans-Serif font (e.g., Inter, Source Sans Pro) for all text.
+
+Pre-Landing Page (Maximized Smooth Motion):
+
+Concept: Subtle, Continuous Background Motion. The full screen must feature a low-opacity, layered 3D mesh or geometric particle field that perpetually, smoothly drifts and warps. This animation must be ambient and non-distracting.
+
+Text Reveal: The text "Initializing Bug Buster Core Logic..." must use a staggered word-by-word fade-in and subtle scale-up animation.
+
+Transition: A smooth, cinematic, slow Cross-Fade (5 seconds total duration) to the main dashboard.
+
+Dashboard Layout: Bento Grid (70/30). Apply Soft, Subtle Drop Shadows and rounded-xl corners to all panel cards for a layered, premium look.
+
+Micro-Interactions (Fluidity):
+
+Bento Panel Hover: When hovering, the card must execute a Smooth 3D Press/Lift (scale(1.01)) and have a Subtle Accent Border Pulse (Teal/Aqua).
+
+Chat Messages: Implement a Fluid Fade-In and Scale-Up animation (scale-0.98 to scale-1.0) on all incoming agent messages.
+
+Hypotheses Card: Must be expandable (Accordion style) with a smooth CSS transition for height and opacity when revealing details.
+
+Activity Log: The scrolling log must feature a top and bottom blur/fade mask to indicate continuous data flow.
+
+PHASE 2: CORE AUTONOMY & MULTI-AGENT ARCHITECTURE
+
+TASK: Maintain the fully functional, reliable Multi-Agent System logic and the existing prompt structure. This logic must be powered by the OpenAI API (or reliable mock fallbacks).
+
+MANDATORY AGENT ROLES & OUTPUTS:
+
+Empathy Agent (💙): Must adopt a highly professional, calm, and supportive Co-Pilot tone. Outputs a clean, structured JSON Bug Report Card.
+
+Diagnostic Agent (🧠): Analyzes the Bug Report and generates 3 ranked, competing hypotheses. Must output this list as a JSON array to populate the expandable Bento Grid card.
+
+Execution Agent (⚡): Must operate using simulated Replit Shell Commands (prefixed RUN:) for the Activity Log and output the final fix using the Code Diff visualization.
+
+MANDATORY OUTPUT FORMATS (Proof of Integration):
+
+Activity Log: Real-time stream of RUN: and INSPECT: actions in the dedicated side panel.
+
+Git-style Code Diff: Final output in the chat:
+
+Additions (+): Highlighted in the Aqua/Teal accent color.
+
+Deletions (-): Highlighted in a Soft Red/Coral color.
+
+PHASE 3: EXECUTION INSTRUCTION
+
+DELIVERABLE: Build the complete UI, prioritizing the New Pre-Loader and the Dashboard's fluid animations and sophisticated styling before fully integrating the agent logic. The MVP must be fully styled, functional in its pipeline (using fallbacks for reliability), and demonstrate all custom animation and color rules above.
+
+START THE PROJECT.

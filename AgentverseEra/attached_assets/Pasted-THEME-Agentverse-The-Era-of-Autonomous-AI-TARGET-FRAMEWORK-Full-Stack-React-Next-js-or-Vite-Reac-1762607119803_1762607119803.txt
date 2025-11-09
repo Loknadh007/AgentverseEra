@@ -1,0 +1,31 @@
+THEME: Agentverse: The Era of Autonomous AI
+TARGET FRAMEWORK: Full-Stack React/Next.js (or Vite/React if Next.js is restricted) and Tailwind CSS for modern design.
+
+PHASE 1: UI/UX & VIBE (Non-Negotiable)
+
+AESTHETIC & INTERACTION RULES (HIGH VIBE):
+1. Pre-Loader: Design a full-screen, black canvas Pre-Landing Page that displays for a minimum of 5 seconds. It must feature a pure CSS or Lottie animation of a pulsing, electric-blue geometric signature (like a digital fingerprint or circuit flow) with the text "Initializing Bug Buster Kernel... Analyzing Dev Sentiment..." Use a smooth fade-in transition to the main app.
+2. Color Palette: Dark Mode Only (bg-gray-950 or black) with high-contrast accent colors: Electric Blue(for UI elements, buttons) and Neon Green/Red (for code status/diffs).
+3. Layout: Implement a fluid, responsive Bento Grid Layout for the main dashboard.
+    * Main Panel (70% width): The real-time chat interface.
+    * Side Panel (30% width): Reserved for structured data displays (Hypotheses, Activity Log).
+4. Transitions & Effects: All new chat messages must use a subtle slide-up and fade-in animation. Code blocks must use a typewriter effect when rendered. Use Glassmorphism/Progressive Blur for all key modal backgrounds or side panels.
+
+PHASE 2: CORE AUTONOMY & MULTI-AGENT ARCHITECTURE
+
+TASK: Scaffold a fully autonomous, conversational debugging environment using a specialized, visible Multi-Agent System (MAS). The system operates on user-provided bug descriptions (simulated by files/code snippets).
+MANDATORY AGENT ROLES & OUTPUTS:
+Agent Role	Unique Focus & Response Format	Intelligence Feature
+1. Empathy Agent (The Triage)	Focus on User Sentiment. If the user expresses frustration (e.g., "stuck," "lost," "bugging me"), respond with empathetic text and an emoji before asking for context. Output a concise Structured Bug Report Card (JSON-like format).	Simulated Emotional Intelligence
+2. Diagnostic Agent (The Brain)	Analyze the bug report and relevant code (simulated files/snippets) to generate 3 ranked, competing hypotheses for the root cause. Must display this list in a dedicated, structured Bento Grid Card on the side panel before proceeding.	Hypothesis-Driven Reasoning
+3. Execution Agent (The Worker)	Only outputs commands that would run in the Replit Shell/File System. Must simulate shell commands and report success/failure in a dedicated Activity Log.	Replit Integration & Shell Command Simulation
+PHASE 3: EXECUTION & HIGH-SCORING PROOF POINTS
+
+REQUIREMENTS FOR WINNING:
+1. Code Visualization (The Fix): When the Execution Agent is ready to apply a code change, it must first present a Code Diff visualization in the main chat. Use classic Git-style syntax (+ for addition in Neon Green, - for deletion in Red) for maximum clarity and technical flair.
+2. Activity Log: The Side Panel must contain a separate, continuously updated Activity Log. This log must display the Execution Agent's simulated steps in real-time with a "loading" or "typing" animation:
+    * [20:30:15] Execution Agent: Diagnosing code flow in server.js...
+    * [20:30:17] Execution Agent: RUN: npm install --save cors (Simulated Shell Command)
+3. Initial Deliverable: Build the complete UI/UX (Pre-Loader, Bento Grid, Chat Component, Side Panels)and implement the basic chat logic where the Empathy Agent receives a sample bug description and outputs its initial Structured Bug Report Card. Do not implement the full debugging logic yet—focus on the high-vibe front-end and the multi-agent shell.
+START THE PROJECT. THE FINAL OUTPUT MUST BE A USABLE, HIGHLY STYLIZED MVP THAT DEMONSTRATES THE MULTI-AGENT SYSTEM ARCHITECTURE AND THE CUSTOM UI/UX RULES ABOVE.
+

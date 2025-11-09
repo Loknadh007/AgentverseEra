@@ -1,0 +1,42 @@
+
+
+💎 Vibeathon Winning Prompt: The Bug Buster (Classy Tech Edition)
+
+THEME: Agentverse: Minimalist Autonomous Tech.
+TARGET FRAMEWORK: Full-Stack React/Next.js and Tailwind CSS (Ensure Tailwind is configured to use the custom colors below).
+
+PHASE 1: UI/UX & VIBE (Modern & Awesome)
+
+AESTHETIC & ANIMATION RULES (CRITICAL):
+1. Color Palette: Use a Deep Slate/Charcoal background (#171923). Primary Accent: Subtle Aqua/Teal (#00E5C0). Secondary Accent/Success: Muted Gold/Warm Yellow (#FFD700).
+2. Typography: Use a clean, modern Sans-Serif font (e.g., Inter, if available).
+3. Pre-Landing Page (Maximum Animation):
+    * Effect: Full-screen for 5 seconds. Must display a Layered Grid Manifestation animation (abstract data flow). Use a 3D-like parallax effect where fine grid lines (in the Aqua/Teal accent) move at slightly different speeds.
+    * Text Reveal: The text "Initializing Bug Buster Core Logic..." must use a fluid, staggered scale-up/fade-in animation, perfectly timed with the grid settling.
+    * Transition: A smooth, cinematic Cross-Fade to the main dashboard.
+4. Dashboard Layout: Bento Grid (70/30). Apply Subtle Drop Shadows and soft corners (rounded-xl) to all panel cards.
+5. Motion (Fluidity):
+    * Bento Panel Hover: When hovering over the Diagnostic or Activity panels, the card must execute a Subtle Hover Lift (translateY(-2px)) and the border must pulse with a Soft Aqua/Teal Glow (use a transition-all class).
+    * Chat Messages: Implement a Fluid Fade-In and Scale-Up animation (scale-0.98 to scale-1.0) on all incoming agent messages.
+    * Hypotheses Card: The hypothesis details must use a smooth CSS transition when expanding/collapsing (progressive disclosure).
+    * Activity Log: The scrolling log must feature a top and bottom blur/fade mask to indicate continuous data flow off-screen (professional display).
+
+PHASE 2: CORE AUTONOMY & MULTI-AGENT ARCHITECTURE
+
+TASK: Maintain the fully functional, reliable Multi-Agent System logic. Ensure the agents' output directly drives the new UI components.
+AGENT ROLE REFINEMENT (Tone and Output):
+1. Empathy Agent (💙): Must adopt a highly professional, calm, and supportive Co-Pilot tone. Tone should be helpful but refined. (No emojis, per design review).
+2. Diagnostic Agent (🧠): Output the ranked JSON array to specifically populate the expandable Bento Grid card.
+3. Execution Agent (⚡): Must feed real-time entries to the Scrolling Activity Log and output the final fix as a clean, code-highlighted Diff.
+MANDATORY OUTPUT FORMATS (MUST BE VISIBLE):
+1. Structured Bug Report: JSON card in the main chat (post-Empathy Agent).
+2. Hypotheses List: Ranked, expandable list in the dedicated side panel.
+3. Activity Log: Real-time stream of RUN: and INSPECT: actions in the other dedicated side panel.
+4. Git-style Code Diff: Final output in the chat:
+    * Additions (+): Highlighted in the Aqua/Teal accent color.
+    * Deletions (-): Highlighted in a Soft Red/Coral color.
+
+PHASE 3: EXECUTION INSTRUCTION
+
+DELIVERABLE: Scaffold the entire project focusing first on the New Pre-Loader and the Main Dashboard CSS/Animations. Then integrate the existing multi-agent logic (using the fallback system) to prove the visual pipeline is working seamlessly with the fluid effects.
+START THE PROJECT. THE FINAL OUTPUT MUST BE A USABLE, HIGHLY STYLIZED MVP THAT DEMONSTRATES ALL CUSTOM ANIMATION, FONT, AND COLOR RULES ABOVE.

@@ -1,0 +1,51 @@
+THEME: Agentverse: Minimalist Autonomous Tech. TARGET FRAMEWORK: Full-Stack React/Next.js and Tailwind CSS. (Ensure Tailwind is configured to use custom colors and animations).
+
+PHASE 1: UI/UX & HIGH-END AESTHETIC (The New Vibe)
+
+AESTHETIC & ANIMATION RULES (CRITICAL, MUST BE AWESOME):
+
+Color Palette: Use a soft, high-contrast, professional palette.
+
+Background: Very Dark Slate/Charcoal (e.g., #0F172A or #171923).
+
+Primary Accent (Success/Highlight): A sophisticated Teal/Aqua (#00E5C0).
+
+Secondary/Tertiary: Muted, subtle grays and whites for text and separators.
+
+Typography: Use a Clean, Modern Sans-Serif font (e.g., Inter, Source Sans Pro) for all text. Ensure excellent kerning and readability.
+
+Pre-Landing Page (Maximized Smooth Motion):
+
+Concept: Subtle, Continuous Background Motion. The full screen should feature a slow, ambient animation—e.g., a low-opacity layered 3D mesh or geometric particle field that perpetually, smoothly drifts and warps in the background. This animation must be non-distracting but continuous.
+
+Text Reveal: The text "Initializing Bug Buster Core Logic..." must use a staggered letter-by-letter or word-by-word fade-in and scale-up animation (not a typewriter effect).
+
+Duration/Transition: Must last 5 seconds, ending with a super-smooth, slow Cross-Fade to the main dashboard.
+
+Dashboard Layout: Bento Grid (70/30). Apply Soft, Subtle Drop Shadows and rounded-xl corners to all panel cards for a layered, premium look.
+
+Micro-Interactions (Fluidity):
+
+Bento Panel Hover: When hovering, the card must execute a Smooth 3D Press/Lift (scale(1.01) and soft shadow change) and have a Subtle Accent Border Pulse (Teal/Aqua).
+
+Chat Messages: Implement a Fluid Fade-In and Scale-Up animation (scale-0.98 to scale-1.0) on all agent messages.
+
+Hypotheses Card: Must be expandable (Accordion style) with a smooth CSS transition for height and opacity when revealing details.
+
+PHASE 2: CORE AUTONOMY & AGENT LOGIC
+
+TASK: Maintain the fully functional, reliable Multi-Agent System logic and the existing prompt structure (Empathy → Diagnostic → Execution).
+
+AGENT RESPONSE INTEGRATION:
+
+Empathy Agent: Maintain the professional, supportive Co-Pilot tone.
+
+Activity Log (Execution Agent): The scrolling log must feature a top and bottom blur/fade mask to indicate continuous data flow.
+
+Code Diff Visualization: Use Aqua/Teal (+ additions) and Soft Red/Coral (- deletions) for the diff colors, maintaining the high-contrast look within the code block.
+
+PHASE 3: EXECUTION INSTRUCTION
+
+DELIVERABLE: Build the complete UI, prioritizing the Pre-Loader and the Dashboard's fluid animations and sophisticated styling. Then integrate the existing multi-agent logic (using the reliable fallback system) to prove the visual pipeline is working seamlessly with the high-end effects.
+
+START THE PROJECT. THE FINAL OUTPUT MUST BE A USABLE, HIGHLY STYLIZED MVP THAT DEMONSTRATES ALL CUSTOM ANIMATION, FONT, AND COLOR RULES ABOVE. IT MUST EMULATE THE SENSE OF MOTION AND SOPHISTICATION SEEN IN THE REFERENCE URL.
